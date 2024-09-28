@@ -1,7 +1,7 @@
 import React from 'react';
 import BenefitCard from './BenefitCompaniesCard';
-import companiesImage from '../../companies.jpg';
-import Image from 'next/image';
+import companiesImage from '../../images/companies.jpg';
+// import Image from 'next/image';
 
 interface BenefitCompaniesCardProps {
 	title: string;
@@ -39,10 +39,9 @@ const BenefitsCompanies = () => {
 			</h2>
 			<div className="flex flex-wrap gap-8 mt-14 max-w-full w-full">
 				<div className="hidden lg:flex flex-1 h-[653px] w-1/2 max-md:w-full rounded-3xl">
-					<Image
+					<img
 						src={companiesImage}
 						alt="Network illustration"
-						layout="responsive"
 						width={700}
 						height={475}
 						loading="lazy"

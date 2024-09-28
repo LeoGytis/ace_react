@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 interface ArchitectCardProps {
 	imageSrc: string; //StaticImageData
 	name: string;

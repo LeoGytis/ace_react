@@ -1,7 +1,7 @@
 import React from 'react';
 import BenefitSpecialistsItem, {BenefitSpecialistsItemProps} from './BenefitSpecialistsItem';
-import Image from 'next/image';
-import networkImage from '../../network.jpg';
+// import Image from 'next/image';
+import networkImage from '../../images/network.jpg';
 
 const benefits: BenefitSpecialistsItemProps[] = [
 	{
@@ -39,10 +39,9 @@ const BenefitsSpecialists = () => {
 			</h2>
 			<div className="flex flex-wrap gap-8 mt-14 max-w-full w-full">
 				<div className="hidden lg:flex flex-1 h-[653px] w-1/2 max-md:w-full rounded-3xl">
-					<Image
+					<img
 						src={networkImage}
 						alt="Network illustration"
-						layout="responsive"
 						width={700}
 						height={475}
 						loading="lazy"

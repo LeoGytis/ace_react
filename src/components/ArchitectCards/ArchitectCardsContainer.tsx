@@ -1,7 +1,6 @@
 import React from 'react';
 import {architectsData} from './architectsData';
 import ArchitectCard from './ArchitectCard';
-import './App.css'; // Ensure this includes slick styles
 import Slider from 'react-slick';
 
 const ArchitectCardsContainer = () => {
