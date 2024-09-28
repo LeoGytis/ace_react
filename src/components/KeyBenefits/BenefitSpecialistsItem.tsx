@@ -1,5 +1,5 @@
-import BagIcon from '@/app/icons/BagIcon';
 import React from 'react';
+import BagIcon from '../../icons/BagIcon';
 
 export interface BenefitSpecialistsItemProps {
 	title: string;

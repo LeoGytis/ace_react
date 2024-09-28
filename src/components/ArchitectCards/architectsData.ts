@@ -1,20 +1,20 @@
-import architect1 from '@/app/images/architects/architect01.jpg';
-import architect2 from '@/app/images/architects/architect02.jpg';
-import architect3 from '@/app/images/architects/architect03.jpg';
-import architect4 from '@/app/images/architects/architect04.jpg';
-import architect5 from '@/app/images/architects/architect05.jpg';
-import architect6 from '@/app/images/architects/architect06.jpg';
-import architect7 from '@/app/images/architects/architect07.jpg';
-import architect8 from '@/app/images/architects/architect08.jpg';
-import architect9 from '@/app/images/architects/architect09.jpg';
-import architect10 from '@/app/images/architects/architect10.jpg';
-import architect11 from '@/app/images/architects/architect11.jpg';
-import architect12 from '@/app/images/architects/architect12.jpg';
-import architect13 from '@/app/images/architects/architect13.jpg';
-import architect14 from '@/app/images/architects/architect14.jpg';
-import architect15 from '@/app/images/architects/architect15.jpg';
-import architect16 from '@/app/images/architects/architect16.jpg';
-import architect17 from '@/app/images/architects/architect17.jpg';
+import architect1 from '../../images/architects/architect01.jpg';
+import architect2 from '../../images/architects/architect02.jpg';
+import architect3 from '../../images/architects/architect03.jpg';
+import architect4 from '../../images/architects/architect04.jpg';
+import architect5 from '../../images/architects/architect05.jpg';
+import architect6 from '../../images/architects/architect06.jpg';
+import architect7 from '../../images/architects/architect07.jpg';
+import architect8 from '../../images/architects/architect08.jpg';
+import architect9 from '../../images/architects/architect09.jpg';
+import architect10 from '../../images/architects/architect10.jpg';
+import architect11 from '../../images/architects/architect11.jpg';
+import architect12 from '../../images/architects/architect12.jpg';
+import architect13 from '../../images/architects/architect13.jpg';
+import architect14 from '../../images/architects/architect14.jpg';
+import architect15 from '../../images/architects/architect15.jpg';
+import architect16 from '../../images/architects/architect16.jpg';
+import architect17 from '../../images/architects/architect17.jpg';
 
 export const architectsData = [
 	{

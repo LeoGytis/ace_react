@@ -1,6 +1,6 @@
 import React from 'react';
 import BenefitCard from './BenefitCompaniesCard';
-import companiesImage from '@/app/images/companies.jpg';
+import companiesImage from '../../companies.jpg';
 import Image from 'next/image';
 
 interface BenefitCompaniesCardProps {

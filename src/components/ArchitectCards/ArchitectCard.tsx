@@ -1,8 +1,7 @@
-import Image, {StaticImageData} from 'next/image';
 import React from 'react';
-
+import './App.css';
 interface ArchitectCardProps {
-	imageSrc: StaticImageData;
+	imageSrc: string; //StaticImageData
 	name: string;
 	role: string;
 	skills: string[];
@@ -12,7 +11,7 @@ const ArchitectCard: React.FC<ArchitectCardProps> = ({imageSrc, name, role, skil
 	return (
 		<article className="mx-16 my-10">
 			<div className="flex relative flex-col self-stretch my-auto rounded-3xl min-h-[400px] min-w-[240px] transform transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform p-2 px-8">
-				<Image
+				<img
 					src={imageSrc}
 					alt={`${name}, ${role}`}
 					width={276}

@@ -1,7 +1,7 @@
 import React from 'react';
 import BenefitSpecialistsItem, {BenefitSpecialistsItemProps} from './BenefitSpecialistsItem';
 import Image from 'next/image';
-import networkImage from '@/app/images/network.jpg';
+import networkImage from '../../network.jpg';
 
 const benefits: BenefitSpecialistsItemProps[] = [
 	{
