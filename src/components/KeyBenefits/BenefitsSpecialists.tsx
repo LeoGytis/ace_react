@@ -10,14 +10,14 @@ const benefits: BenefitSpecialistsItemProps[] = [
 			'Showcase your projects, challenges, and solutions to companies looking for top talent. Create a detailed profile that highlights your skills and projects, making you stand out in the competitive AEC industry.',
 	},
 	{
-		title: 'Find new job opportunities',
-		description:
-			'Quickly and efficiently find job offers that match your qualifications and specialization. Companies can view your projects and experience, allowing you to find the right job that aligns with your skills.',
-	},
-	{
 		title: 'Share your experience and knowledge',
 		description:
 			'Showcase your projects, challenges, and solutions to help other specialists learn from your experience. Contribute to the knowledge base and become a recognized expert in your field.',
+	},
+	{
+		title: 'Learn and grow',
+		description:
+			'Stay updated on the latest industry innovations, technologies, and trends by engaging with colleagues and experts who continuously share their knowledge on the platform.',
 	},
 	{
 		title: 'Expand your professional network',
@@ -25,9 +25,9 @@ const benefits: BenefitSpecialistsItemProps[] = [
 			'Connect with other architects, engineers, and constructors, share ideas, and collaborate with top experts in the industry from around the globe.',
 	},
 	{
-		title: 'Learn and grow',
+		title: 'Find new job opportunities',
 		description:
-			'Stay updated on the latest industry innovations, technologies, and trends by engaging with colleagues and experts who continuously share their knowledge on the platform.',
+			'Quickly and efficiently find job offers that match your qualifications and specialization. Companies can view your projects and experience, allowing you to find the right job that aligns with your skills.',
 	},
 ];
 
