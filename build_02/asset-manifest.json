@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "./static/css/main.14578e90.css",
+    "main.js": "./static/js/main.6171ed3f.js",
+    "static/js/453.ee2caeaa.chunk.js": "./static/js/453.ee2caeaa.chunk.js",
+    "static/media/companies.jpg": "./static/media/companies.c71483d4befea0a3d201.jpg",
+    "static/media/network.jpg": "./static/media/network.6332c0fe2489192847bb.jpg",
+    "static/media/architect02.jpg": "./static/media/architect02.96c027223839d560876a.jpg",
+    "static/media/architect16.jpg": "./static/media/architect16.e7ea20c52448dd4e3280.jpg",
+    "static/media/architect04.jpg": "./static/media/architect04.6aa3678e079c948aa76b.jpg",
+    "static/media/architect11.jpg": "./static/media/architect11.004acd78450effd98722.jpg",
+    "static/media/architect09.jpg": "./static/media/architect09.1df23ca40be4e9be0dd9.jpg",
+    "static/media/architect07.jpg": "./static/media/architect07.3b58d8829701df1d8c54.jpg",
+    "static/media/architect10.jpg": "./static/media/architect10.0e06b5306acbbb45f3bc.jpg",
+    "static/media/architect06.jpg": "./static/media/architect06.7ca7022bf2d9c6a54696.jpg",
+    "static/media/architect08.jpg": "./static/media/architect08.ee1e204ff6470a941d2f.jpg",
+    "static/media/architect01.jpg": "./static/media/architect01.95db6801a5454547b3f3.jpg",
+    "static/media/architect17.jpg": "./static/media/architect17.e540cbc7808e7b1f562d.jpg",
+    "static/media/architect05.jpg": "./static/media/architect05.71ec5d1ddb27dfe8028f.jpg",
+    "static/media/architect12.jpg": "./static/media/architect12.25102abed6bdb51f1f85.jpg",
+    "static/media/architect15.jpg": "./static/media/architect15.5d6b54a6e2b14c850814.jpg",
+    "static/media/architect03.jpg": "./static/media/architect03.4b50c902d581cc4fdab2.jpg",
+    "static/media/architect13.jpg": "./static/media/architect13.99048261f7b6fc41e8dd.jpg",
+    "static/media/architect14.jpg": "./static/media/architect14.d26726c64d915eee32c7.jpg",
+    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "./index.html",
+    "main.14578e90.css.map": "./static/css/main.14578e90.css.map",
+    "main.6171ed3f.js.map": "./static/js/main.6171ed3f.js.map",
+    "453.ee2caeaa.chunk.js.map": "./static/js/453.ee2caeaa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14578e90.css",
+    "static/js/main.6171ed3f.js"
+  ]
+}
