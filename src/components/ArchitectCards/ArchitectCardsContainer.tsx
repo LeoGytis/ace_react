@@ -52,7 +52,7 @@ const ArchitectCardsContainer = () => {
 
 	return (
 		<section>
-			<Slider {...slideShowSettings} className="relative">
+			<Slider {...slideShowSettings} className="">
 				{architectsData.map((architect, index) => (
 					<ArchitectCard
 						key={index}
@@ -63,7 +63,7 @@ const ArchitectCardsContainer = () => {
 					/>
 				))}
 			</Slider>
-			<Slider {...reversedSlideShowSettings} className="relative">
+			<Slider {...reversedSlideShowSettings} className="hidden lg:flex">
 				{architectsData.map((architect, index) => (
 					<ArchitectCard
 						key={index}
