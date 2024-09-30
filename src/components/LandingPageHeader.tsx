@@ -11,7 +11,7 @@ export const LandingPageHeader = () => {
 			</div>
 			<div className="mt-8 text-7xl font-semibold tracking-tighter text-center leading-[72px] text-neutral-900 max-md:max-w-full max-md:text-4xl max-md:leading-10">
 				<h1 className="text-wrap">
-					Connect, collaborate, and grow with architects, engineers, and constructors.
+					Connect, collaborate, share, learn and grow with architects, engineers, and constructors.
 				</h1>
 			</div>
 		</header>
