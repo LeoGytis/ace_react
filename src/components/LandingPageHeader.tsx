@@ -1,10 +1,8 @@
-import Image from 'next/image';
-
 export const LandingPageHeader = () => {
 	return (
 		<header className="flex flex-col gap-4 items-center w-full max-md:px-5 max-md:py-4 px-8 py-2.5 pb-24">
 			<div className="w-full flex justify-between items-center mb-16">
-				<Image src="/logo.svg" alt="Logo" width={101} height={22} />
+				<img src="/logo.svg" alt="Logo" width={101} height={22} />
 				<div className="flex gap-4 items-center text-sm font-medium"></div>
 			</div>
 			<div className=" px-4 py-2 text-sm font-medium leading-loose text-center bg-yellow-200 border border-solid border-black border-opacity-10 rounded-full">
