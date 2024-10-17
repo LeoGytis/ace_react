@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import LandingPageFooter from './components/LandingPageFooter';
 import LandingPageHeader from './components/LandingPageHeader';
@@ -9,7 +8,6 @@ import BenefitsSection from './components/BenefitsSection';
 import {benefitsCompanies} from './components/BenefitsCompanies';
 import {benefitsSepcialists} from './components/BenefitsSpecialists';
 
-// ${inter.className}
 function App() {
 	return (
 		<div className={` antialiased w-full flex flex-col items-center justify-center bg-white`}>
