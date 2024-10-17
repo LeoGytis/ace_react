@@ -1,4 +1,4 @@
-import Logo from '../icons/Logo.svg';
+import LogoIcon from '../icons/Logo';
 
 const LandingPageFooter = () => {
 	return (
@@ -18,7 +18,8 @@ const LandingPageFooter = () => {
 			</div>
 			<div className="flex justify-between items-center px-10 pb-8 w-full bg-neutral-800  text-slate-600 *:max-md:px-5 max-md:max-w-full border-t border-slate-600">
 				<div className="text-xs font-semibold text-bottom pt-8">@2004. Acertip.</div>
-				<img src={Logo} alt="Logo" width={222} height={46} />
+
+				<LogoIcon width={222} height={46} />
 			</div>
 		</footer>
 	);
