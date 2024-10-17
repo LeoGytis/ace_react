@@ -15,9 +15,7 @@ import architect14 from '../../images/architects/architect14.jpg';
 import architect15 from '../../images/architects/architect15.jpg';
 import architect16 from '../../images/architects/architect16.jpg';
 import architect17 from '../../images/architects/architect17.jpg';
-// import architect01 from '../../../public/images/architects/architect01.jpg';
 
-// Refactor data to use imported images
 export const architectsData = [
 	{
 		imageSrc: architect01,
