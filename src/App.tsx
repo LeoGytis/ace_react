@@ -7,6 +7,8 @@ import LandingPageDescription from './components/LandingPageDescription';
 import BenefitsSection from './components/BenefitsSection';
 import {benefitsCompanies} from './components/BenefitsCompanies';
 import {benefitsSepcialists} from './components/BenefitsSpecialists';
+import specialistsImage from './images/specialists.jpg';
+import companiesImage from './images/companies.jpg';
 
 function App() {
 	return (
@@ -17,12 +19,12 @@ function App() {
 				<LandingPageDescription />
 				<BenefitsSection
 					title="Key Benefits for Specialists:"
-					imageUrl="/images/specialists.jpg"
+					imageUrl={specialistsImage}
 					benefits={benefitsSepcialists}
 				/>
 				<BenefitsSection
 					title="Key Benefits for Companies:"
-					imageUrl="/images/companies.jpg"
+					imageUrl={companiesImage}
 					benefits={benefitsCompanies}
 				/>
 				<LandingPageFeatures />
