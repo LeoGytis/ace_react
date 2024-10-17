@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import ArrowsIcon from '../icons/ArrowsFeature.svg';
 import BulbIcon from '../icons/BulbFeature.svg';
 import PersonIcon from '../icons/PersonFeature.svg';
@@ -39,7 +38,7 @@ const LandingPageFeatures = () => {
 			<div className="flex flex-col lg:flex-row gap-10 items-start">
 				{features.map((feature, index) => (
 					<article key={index} className="flex flex-col flex-1 justify-center p-4 ">
-						<Image src={feature.icon} alt="feature_icon" width={48} height={48} className="mb-2" />
+						<img src={feature.icon} alt="feature_icon" width={48} height={48} className="mb-2" />
 						<h3 className="text-xl font-semibold text-neutral-800">{feature.title}</h3>
 						<p className="text-wrap text-base font-normal text-slate-600">{feature.description}</p>
 					</article>
