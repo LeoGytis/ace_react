@@ -13,7 +13,7 @@ import {benefitsSpecialists} from './components/BenefitsSpecialists';
 function App() {
 	return (
 		<div className={` antialiased w-full flex flex-col items-center justify-center bg-white`}>
-			<main className="flex flex-col justify-center w-full text-3xl font-semibold tracking-tight whitespace-nowrap bg-white bg-opacity-90 max-w-[1440px] text-neutral-800 max-md:max-w-full">
+			<main className="w-full max-w-[1120px] mx-auto flex flex-col">
 				<LandingPageHeader />
 				<LandingPagePeople />
 				<LandingPageDescription />
