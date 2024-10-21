@@ -5,7 +5,7 @@ import FindIcon from '../icons/Find.svg';
 import GlobeIcon from '../icons/Globe.svg';
 import BrainIcon from '../icons/Brain.svg';
 
-export const benefitsSepcialists: Benefit[] = [
+export const benefitsSpecialists: Benefit[] = [
 	{
 		icon: EyeIcon,
 		title: 'Become visible',

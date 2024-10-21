@@ -6,9 +6,9 @@ import LandingPagePeople from './components/ArchitectCards/LandingPagePeople';
 import LandingPageDescription from './components/LandingPageDescription';
 import BenefitsSection from './components/BenefitsSection';
 import {benefitsCompanies} from './components/BenefitsCompanies';
-import {benefitsSepcialists} from './components/BenefitsSpecialists';
 import specialistsImage from './images/specialists.jpg';
 import companiesImage from './images/companies.jpg';
+import {benefitsSpecialists} from './components/BenefitsSpecialists';
 
 function App() {
 	return (
@@ -20,7 +20,7 @@ function App() {
 				<BenefitsSection
 					title="Key Benefits for Specialists:"
 					imageUrl={specialistsImage}
-					benefits={benefitsSepcialists}
+					benefits={benefitsSpecialists}
 				/>
 				<BenefitsSection
 					title="Key Benefits for Companies:"
