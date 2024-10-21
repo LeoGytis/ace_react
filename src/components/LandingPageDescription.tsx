@@ -1,19 +1,13 @@
 const LandingPageDescription = () => {
-  return (
-    <section className="overflow-hidden py-32 w-full max-md:px-5 max-md:py-16 max-md:max-w-full">
-      <div className="mt-4 text-xl md:text-4xl text-wrap font-semibold tracking-tighter leading-10 text-center text-slate-600 text-opacity-50 max-md:max-w-full px-16 md:px-40">
-        <span className="text-neutral-800">acertip</span>
-        <span className="text-neutral-800 align-super text-[8px] font-bold">
-          TM
-        </span>{' '}
-        is an innovative platform that unites architects, engineers and
-        constructors. Share knowledge, showcase your projects, and easily find
-        the right specialists and companies. Help the AEC industry thrive with
-        smart tools that simplify talent search, project management, and
-        knowledge sharing.
-      </div>
-    </section>
-  );
+	return (
+		<section className="text-xl md:text-[40px] font-semibold tracking-tighter leading-10 text-center text-grey2 my-24 lg:my-48">
+			<span className="text-black">acertip</span>
+			<span className="text-black align-super text-[8px] font-bold">TM</span> is an innovative platform that
+			unites architects, engineers and constructors. Share knowledge, showcase your projects, and easily find the
+			right specialists and companies. Help the AEC industry thrive with smart tools that simplify talent search,
+			project management, and knowledge sharing.
+		</section>
+	);
 };
 
 export default LandingPageDescription;
